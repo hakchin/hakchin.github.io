@@ -1,22 +1,123 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>Posts on hakchin &amp; spirit</title>
     <link>http://localhost:1313/post/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <description>Recent content in Posts on hakchin &amp; spirit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 07 Oct 2015 16:25:39 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>first</title>
-      <link>http://localhost:1313/post/first/</link>
+      <title>Hosting on GitHub Pages</title>
+      <link>http://localhost:1313/post/2015-10-07-hosting-on-github-pages/</link>
       <pubDate>Wed, 07 Oct 2015 16:25:39 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/first/</guid>
-      <description>&lt;p&gt;sjflkdjsfas
-fjdsakljflksdajfkldjsalkfjsalkjflkdjsa;ljklj&lt;/p&gt;
+      <guid>http://localhost:1313/post/2015-10-07-hosting-on-github-pages/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction:106aa8f12b3109cbecd256484fecf071&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;h3 id=&#34;참조-사이트:106aa8f12b3109cbecd256484fecf071&#34;&gt;참조 사이트&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/tutorials/github-pages-blog/&#34; title=&#34;Hosting on GitHub Pages&#34;&gt;Hosting on GitHub Pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/hugoThemes/&#34; title=&#34;hugoThemes&#34;&gt;spf13/hugoThemes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;github subtree
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://readme.skplanet.com/?p=8542&#34; title=&#34;git subtree 사용하기&#34;&gt;git subtree를 사용하여 재사용할 코드 독립 시키기&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://git-scm.com/book/ko/v1/Git-도구-Subtree-Merge&#34; title=&#34;subtree merge&#34;&gt;Git 도구 - Subtree Merge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;hakchin-s-how-to:106aa8f12b3109cbecd256484fecf071&#34;&gt;Hakchin&amp;rsquo;s How-To&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;- hugo server --theme=purehugo --buildDrafts --watch
+- hugo server --theme=nofancy --buildDrafts
+- hugo server --theme=vienna --buildDrafts
+- hugo server --theme=material-design --buildDrafts
+- hugo server --theme=liquorice --buildDrafts
+- hugo server --theme=tachyons --buildDrafts
+
+
+### To use a theme for a site:
+- hugo -t nofancy
+
+
+
+eerfmai-2:hakchingithubio sn2ro$ git subtree add --prefix=public https://github.com/hakchin/hakchingithubio.git gh-pages --squash
+
+
+git subtree add --prefix public git@github.com:hakchin/hakchingithubio.git master --squash
+
+git subtree pull --prefix=public https://github.com/hakchin/hakchingithubio.git gh-pages
+
+
+git subtree push --prefix=public https://github.com/hakchin/hakchin.github.io.git gh-pages
+
+
+
+
+
+https://github.com/hakchin/hakchin.github.io.git
+
+
+
+
+============
+//이전에 생성된 결과물 제거
+rm -rf public
+
+//hakchingithubio 저장소의 public 디렉토리를 subtree로 지정
+git subtree add --prefix public git@github.com:hakchin/hakchingithubio.git gh-pages --squash
+
+
+//커밋한 내용을 내보내기 ??
+git subtree pull --prefix=public git@github.com:hakchin/hakchingithubio.git gh-pages
+
+//hugo 실행해서 결과물 생성하기
+hugo -t purehugo
+
+// Add everything
+git add -A
+
+// Commit and push to master
+git commit -m &amp;quot;Updating site&amp;quot; &amp;amp;&amp;amp; git push origin master
+
+// Push the public subtree to the gh-pages branch (subtree를 웹Root인 cdpython.github.io에 푸시)
+git subtree push --prefix=public git@github.com:hakchin/hakchingithubio.git gh-pages
+
+
+
+--------------------
+git remote add public git@github.com:hakchin/hakchin.github.io.git
+
+git subtree add --prefix=public git@github.com:hakchin/hakchin.github.io gh-pages
+git subtree add --prefix=public git@github.com:hakchin/hakchin.github.io master
+--------------------------
+
+git remote add public_repo git@github.com:hakchin/hakchin.github.io.git
+
+git subtree add --prefix=public public_repo gh-pages
+
+git checkout --track public_repo/gh-pages -b public_br
+
+git subtree push --prefix=public public_repo gh-pages
+
+git push public_repo public_br
+
+
+
+결국은 
+hakchingithubio에서,
+git subtree push --prefix=public public_repo gh-pages
+
+hakchin.github.io에서,
+gh-pages 와 master를 merge
+
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
