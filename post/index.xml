@@ -6,6 +6,8 @@
     <description>Recent content in Posts on hakchin &amp; spirit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>hakchin@gmail.com (Hakchin Kim)</managingEditor>
+    <webMaster>hakchin@gmail.com (Hakchin Kim)</webMaster>
     <lastBuildDate>Wed, 07 Oct 2015 16:25:39 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +15,7 @@
       <title>Hosting on GitHub Pages</title>
       <link>http://localhost:1313/post/2015-10-07-hosting-on-github-pages/</link>
       <pubDate>Wed, 07 Oct 2015 16:25:39 +0900</pubDate>
-      
+      <author>hakchin@gmail.com (Hakchin Kim)</author>
       <guid>http://localhost:1313/post/2015-10-07-hosting-on-github-pages/</guid>
       <description>
 
@@ -24,7 +26,15 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/tutorials/github-pages-blog/&#34; title=&#34;Hosting on GitHub Pages&#34;&gt;Hosting on GitHub Pages&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/spf13/hugoThemes/&#34; title=&#34;hugoThemes&#34;&gt;spf13/hugoThemes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;github subtree
+
+&lt;li&gt;&lt;p&gt;기타 참조 홈페이지&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://sa.muel.be&#34; title=&#34;hugo 관련 아이디어를 얻을 수 있다&#34;&gt;Samuel Debruyn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SamuelDebruyn/samueldebruyn.github.io&#34; title=&#34;Source Check&#34;&gt;Sample&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;github subtree&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://readme.skplanet.com/?p=8542&#34; title=&#34;git subtree 사용하기&#34;&gt;git subtree를 사용하여 재사용할 코드 독립 시키기&lt;/a&gt;&lt;/li&gt;
