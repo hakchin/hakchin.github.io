@@ -1,0 +1,18 @@
+---
+layout: post
+title: Some Manuals
+modified:
+categories: blog
+excerpt:
+tags: []
+image:
+  feature:
+---
+
+* [기술사 Master](/hlatexhtml/sn-pe-master.html "기술사 학습 정리입니다.")
+* [기술사 Auxiliary](/hlatexhtml/sn-pe-auxiliary.html "기술사 MECE입니다.")
+* [lshort](/hlatexhtml/lshort.html "This is LaTeX")
+* [Practical-Vim-Edit-Text-at-the-Speed-of-Thought](/hlatexhtml/Practical-Vim-Edit-Text-at-the-Speed-of-Thought.html "vim manual")
+* [bash-OReilly.bash.Cookbook.May.2007](/hlatexhtml/bash-OReilly.bash.Cookbook.May.2007.html "bash manual")
+* [R Markdown](/hlatexhtml/rmarkdown.html "R Markdown")
+

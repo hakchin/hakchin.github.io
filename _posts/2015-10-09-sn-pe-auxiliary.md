@@ -1,0 +1,35 @@
+---
+layout: post
+title: "sn-pe-auxiliary"
+author: "Hakchin Kim"
+comments: true
+tags: pe
+categories: common
+---
+
+# 기술사 지식 영역
+1. 경영정보시스템 (Information System)
+1. 디지털서비스 (Digital Service)
+1. 네트워크 (Networks)
+1. 데이터베이스 (Database)
+1. 소프트웨어공학 (Software Engineering)
+1. 정보보안 (Information Security)
+1. 시스템구조 (System Architecture)
+
+
+# 해킹의 유형
+1. 침입(Intrusion)
+1. 서비스거부(Deniol of Service)
+1. 정보절취(Information Theft)
+* Sniffing
+* Spoofing
+
+# 쓸만한 bok
+1. PMBOK
+1. SWEBOK
+
+# IoT Examples
+1. Automated homes
+1. Connected cars
+1. Smart cities
+
