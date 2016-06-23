@@ -56,11 +56,13 @@ b li a {
 
 /* background-color */
 
+
 /*
 body {
   background-color: red
 }
 */
+
 .red {
   background-color: red
 }
@@ -77,8 +79,66 @@ td {
 /* background-image */
 
 body {
-  background-image: url(./images/3-12-01.gif)
+  background-image: url(../images/3-14.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 table {
-  background-image: url(./images/3-12-02.gif)
+  background-image: url(../images/3-12-02.gif)
 }
+
+/*borderstyle*/
+
+.none {
+  border-style: none
+}
+.dotted {
+  border-style: dotted
+}
+.dashed {
+  border-style: dashed
+}
+.solid {
+  border-style: solid
+}
+.double {
+  border-style: double
+}
+.groove {
+  border-style: groove
+}
+.ridge {
+  border-style: ridge
+}
+.inset {
+  border-style: inset
+}
+.outset {
+  border-style: outset
+}
+
+/*border-color*/
+.border1 {
+  border-color: #3366cc
+}
+.border2 {
+  border-color: #3366cc #ff9900
+}
+.border3 {
+  border-color: #3366cc #ff9900 #009966 #d64617
+}
+p {
+  border-style: dotted;
+  font-size: 15pt;
+  line-height: 150%;
+  background-color: #ffffff
+}
+
+/*border-color*/
+.border {
+	border-style:solid;
+	border-top-width:1px;
+	border-right-width:3px;
+	border-bottom-width:10px;
+	border-left-width:25px;
+	border-color:#1958b7;}
