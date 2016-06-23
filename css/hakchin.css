@@ -1,10 +1,3 @@
-/* body에 스타일 적용 */
-
-body {
-  font-size: 40pt;
-  color: #3366CC
-}
-
 /* img에 스타일 적용 */
 
 img {
@@ -63,9 +56,11 @@ b li a {
 
 /* background-color */
 
+/*
 body {
   background-color: red
 }
+*/
 .red {
   background-color: red
 }
