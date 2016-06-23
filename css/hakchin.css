@@ -1,10 +1,89 @@
+/* body에 스타일 적용 */
+
+body {
+  font-size: 40pt;
+  color: #3366CC
+}
+
+/* img에 스타일 적용 */
+
+img {
+  border: 10px solid #D8D8D8;
+}
+
+/* td에 스타일 적용 */
+
+td {
+  font-size: 12pt;
+  color: #999999
+}
+
+/* h1에 스타일 적용 */
+
+h1.red {
+  color: red
+}
+h1.yellow {
+  color: yellow
+}
+h1.green {
+  color: green
+}
+h1.blue {
+  color: blue
+}
+h1.purple {
+  color: purple
+}
 h2 {
-    color: blue;
+  color: blue;
 }
 h4 {
-    color: orange;
+  color: orange;
 }
+td, p, h1 {
+  font-size: 15pt;
+  color: blue
+}
+b li a {
+  font-size: 15pt;
+  color: red
+}
+
+/* class and id */
+
+.purple {
+  font-size: 10pt;
+  color: purple
+}
+#purple {
+  font-size: 15pt;
+  color: purple
+}
+
+/* background-color */
+
 body {
-    font-size: 15pt;
-    color: blue;
+  background-color: red
+}
+.red {
+  background-color: red
+}
+.blue {
+  background-color: blue
+}
+.yellow {
+  background-color: yellow
+}
+td {
+  font-size: 15pt
+}
+
+/* background-image */
+
+body {
+  background-image: url(./images/3-12-01.gif)
+}
+table {
+  background-image: url(./images/3-12-02.gif)
 }

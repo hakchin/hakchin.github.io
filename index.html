@@ -11,17 +11,22 @@
     <!--  <meta http-equiv="refresh" content="5; url=2-01.html">-->
 
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="./css/hakchin.css">
     <style type="text/css">
-        <!-- h2 {
-            color: blue;
+        <!--
+        /*
+        h2 {
+            
+            color: red;
         }
         
         h4 {
             color: orange;
         }        
+        /*
         -->
+
     </style>
+    <link rel="stylesheet" type="text/css" href="./css/hakchin.css">
 
     <!-- javascript -->
     <script src="./js/helloworld.js"></script>
@@ -37,7 +42,7 @@
 </head>
 
 <body>
-    <h1>구획 정의를 위한 태그</h1>
+    <h1 class="red">구획 정의를 위한 태그</h1>
     <article>article : 여러 개의 내용으로 나누는 구분을 의미합니다. 본문 내의 세부 절 등에 사용됩니다.</article>
     <aside>aside : 주요 내용 이외의 문서 내용을 의미합니다. 블로그의 <b>사이드 바</b> 등에 사용됩니다.</aside>
     <footer>footer : 문서의 푸터를 의미합니다. 저작자나 저작권 정보 등에 사용됩니다.</footer>
@@ -45,9 +50,9 @@
     <nav>nav : navation을 의미합니다. 웹 문서 내의 메뉴 등에 사용됩니다.</nav>
     <section>section : 문서의 내용을 의미합니다. 웹 문서의 본문 등에 사용됩니다.</section>
 
-    <h1>제목태그</h1>
-    <h1>h1 : Chapter</h1>
-    <h2>h2 : Section</h2>
+    <h1 class="purple">제목태그</h1>
+    <h1 class="green">h1 : Chapter</h1>
+    <h2 id="purple">h2 : Section</h2>
     <h3>h3 : Subsection</h3>
     <h4>h4 : Subsubsection</h4>
     <h5>h5 : Subject Level 5</h5>
@@ -78,7 +83,7 @@
     <ul>
         <li><a href="/docs/Process-Group-and-Knowledge-Area.html">Process-Group-and-Knowledge-Area</a></li>
         <ol>
-            <li><a href="/docs/Process-Group-and-Knowledge-Area.html">Process-Group-and-Knowledge-Area</a></li>
+            <b><li><a href="/docs/Process-Group-and-Knowledge-Area.html">Process-Group-and-Knowledge-Area</a></li></b>
             <li><a href="/docs/Process-Group-and-Knowledge-Area.html">Process-Group-and-Knowledge-Area</a></li>
         </ol>
     </ul>
@@ -113,7 +118,20 @@
     <h4>. 웹문서를 자유롭게 편집할 수 있습니다.</h4>
     <p>난느jdskfjlasj</p>
     <hr>
+    <table>
+        <tr>
+            <td class="yellow">
+                <h1>LITTLE BEAUTY</h1>
+                <img src="./images/2-24.jpg" width="100" align="left">
+                <p>옛날 어느 동물원에 손짓으로 말을 할 줄 아는 아주 특별한 고릴라가 살고 있었어요.
+                    <br> 그래서 갖고 싶은 것이 있으면 동물원 사람들한테 손짓으로 말했지요.
+                    <br> 고릴라에게는 부족한 것이 하나도 없어 보였어요.</p>
+            </td>
+        </tr>
+    </table>
+    <hr>
     <iframe src="http://www.daum.net/" width="100%" height="500"></iframe>
 </body>
 
 </html>
+
