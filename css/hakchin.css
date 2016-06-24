@@ -9,13 +9,13 @@
   float: left;
 }
 .inner-left {
-  font-size: 11px;
+  font-size: 14px;
   margin-right: 10px;
   padding: 5px 5px 5px 5px;
   border: #999999 1px solid;
   min-height: 60px;
 }
-.inner-right {
+  .inner-right {
   padding: 5px 5px 5px 5px;
   border: #999999 1px solid;
   min-height: 60px;
@@ -110,7 +110,7 @@ td {
 /* background-image */
 
 body {
-  background-image: url(../images/3-14.jpg);
+  /*background-image: url(../images/3-14.jpg);*/
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
