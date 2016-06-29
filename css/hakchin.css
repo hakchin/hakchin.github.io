@@ -1,3 +1,18 @@
+/* 어쩌구 */
+
+.line {
+  border-top: 1px dotted gray;
+  border-bottom: 1px dotted gray;
+  padding: 25px 15px;
+  margin: 50px;
+}
+.blue {
+  color: #0066cc
+}
+.red {
+  color: #990033
+}
+
 /* hyper link */
 
 a:link {
@@ -189,10 +204,12 @@ td, p, h1 {
   font-size: 15pt;
   color: blue
 }
-b li a {
+
+/*b li a {
   font-size: 15pt;
   color: red
-}
+}*/
+
 
 /* class and id */
 
@@ -279,12 +296,14 @@ table {
 .border3 {
   border-color: #3366cc #ff9900 #009966 #d64617
 }
-p {
+
+/*p {
   border-style: dotted;
   font-size: 15pt;
   line-height: 150%;
   background-color: #ffffff
-}
+}*/
+
 
 /*border-color*/
 
