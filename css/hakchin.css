@@ -1,3 +1,33 @@
+/* text transform */
+
+/*.none {
+  text-transform: none
+}*/
+.uppercase {
+  text-transform: uppercase
+}
+.lowercase {
+  text-transform: lowercase
+}
+.capitalize {
+  text-transform: capitalize
+}
+
+/* text decoration */
+
+.none {
+  text-decoration: none
+}
+.under {
+  text-decoration: underline
+}
+.over {
+  text-decoration: overline
+}
+.through {
+  text-decoration: line-through
+}
+
 /* 문자와 문단을 꾸미는 style sheet */
 
 .normal {
