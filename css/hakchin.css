@@ -1,5 +1,4 @@
 /* 어쩌구 */
-
 .line {
   border-top: 1px dotted gray;
   border-bottom: 1px dotted gray;
@@ -194,15 +193,24 @@ h1.blue {
 h1.purple {
   color: purple
 }
+
+h1 {
+  color: darkblue;
+}
 h2 {
-  color: blue;
+  color: darkblue;
+}
+h3 {
+  color: darkblue;
 }
 h4 {
-  color: orange;
+  color: darkblue;
 }
-td, p, h1 {
-  font-size: 15pt;
-  color: blue
+h5 {
+  color: darkblue;
+}
+h6 {
+  color: darkblue;
 }
 
 /*b li a {
@@ -225,11 +233,9 @@ td, p, h1 {
 /* background-color */
 
 
-/*
-body {
+/*body {
   background-color: red
 }
-*/
 
 .red {
   background-color: red
@@ -242,15 +248,18 @@ body {
 }
 td {
   font-size: 15pt
-}
+}*/
+
 
 /* background-image */
 
-body {
-  /*background-image: url(../images/3-14.jpg);*/
+
+/*body {
+  background-image: url(../images/3-14.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
+}*/
+
 table {
   background-image: url(../images/3-12-02.gif)
 }
