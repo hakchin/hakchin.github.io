@@ -1,8 +1,40 @@
+/* hyper link */
+
+a:link {
+  color: #3366cc;
+  text-decoration: none;
+}
+a:visited {
+  color: #009966;
+  text-decoration: none;
+}
+a:hover {
+  color: #cc0000;
+  text-decoration: underline;
+}
+a:active {
+  color: #ff9900;
+  text-decoration: none;
+}
+
+/* list style position */
+
+.outside {
+  list-style-position: outside;
+  color: #3366cc
+}
+.inside {
+  list-style-position: inside;
+  color: #cc3300
+}
+
 /* list style */
+
 
 /*.none {
   list-style-type: none
 }*/
+
 .circle {
   list-style-type: circle
 }
