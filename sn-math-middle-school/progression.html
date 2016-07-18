@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>수열</title>
+    <meta name="generator" content="vim">
+    <meta name="author" content="sn2ro">
+    <meta name="keywords" content="math, mathematics">
+    <meta name="description" content="Hakchin's High School Mathematics">
+    <meta http-equiv="content-type" content="text/html" ; charset="utf-8">
+    <!--  <meta http-equiv="refresh" content="5; url=2-01.html"-->
+    <!--    <script src="./js/helloworld.js"></script>-->
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/hakchin.css">
+
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+    </script>
+
+</head>
+
+<body>
+    <a href="index.html">sn-math-high-school</a>
+    <h1>수열</h1>
+    <h2>등차수열</h2>
+    <h3>등차수열의 일반항</h3>
+    <h4>요점정리</h4>
+    <div class="line red">
+        <b>DEFINITION 등차수열</b>
+        <p>어떤 수에서 시작하여 차례로 일정한 수를 더해서 만들어지는 수열을 <b>등차수열</b>이라 하고, 그 일정한 수를 <b>공차</b>라 한다.
+            <br>일반적으로 수열 $a_1, a_2, a_3, ... , a_n, a_{n+1}, ...$ 이 첫째 항이 $a$, 공차가 $d$인 등차수열을 이룰 때 다음 관계식이 성립한다.</p>
+        $$a_1 = a$$ $$a_{n+1} - a_n = d$$ 또는 $$a_{n+1} = a_n + d (when, n = 1, 2, 3, ...)$$
+    </div>
+
+    <div class="line red">
+        <b>DEFINITION 등차수열의 일반항</b>
+        <p>첫째 항이 $a$, 공차가 $d$인 등차수열의 일반항(제 $n$항)을 $a_n$ 이라면</p>
+        $$a_n = a + (n - 1)d$$
+    </div>
+
+    <p>Definition 등차중항</p>
+    세 수 $a, x, b$가 이 순서로 등차수열을 이룰 때 $x$를 $a, b$의 <b>등차중항</b>이라 한다.
+    <ul>
+        <li>$a, x, b$가 등차수열 $\Leftrightarrow 2x = a + b \Leftrightarrow x = \dfrac{a + b}{2}$</li>
+        <li>$a, b$의 등차중항 $\Leftrightarrow$ $a, b$ 의 산술평균</li>
+    </ul>
+    <h3>조화수열</h3>
+    <p>Definition 조화수열</p>
+    어떤 수열의 각 항의 역수가 등차수열을 이룰 때 그 수열을 <b>조화수열</b>이라 한다. 곧,
+    <ul>
+        <li>$\dfrac{1}{a_1}, \dfrac{1}{a_2}, \dfrac{1}{a_3}, ..., \dfrac{1}{a_n}$이 등차수열</li>
+        <li>$\iff a_1, a_2, a_3, ..., a_n$이 조화수열</li>
+    </ul>
+
+    <p>Definition 조화중항</p>
+    0이 아닌 세수 a, x, b 가 이 순서로 조화수열을 이룰 때 x를 a, b의 <b>조화중항</b> 또는 </b>조화평균</b>이라고 한다.
+
+
+    <p>Theorem</p>
+    x가 a, b의 조화중항이라 할 때, $$\dfrac{2}{x} = \dfrac{1}{a} + \dfrac{1}{b} \iff x = \dfrac{2ab}{a + b}$$
+
+    <p>Proof</p>
+    ...
+    <h2>등비수열</h2>
+    <h3>등비수열의 일반항</h3>
+    <h4>일반항</h4> $a_n = ar^{n-1}$
+    <h4>등차, 등비, 조화중항 사이의 관계</h4>
+    <p>Definition 중항</p>
+    Let $a > 0, b > 0$.
+    <ul>
+        <li>등차중항 - an arithmatical mean</li>
+    </ul>
+    $$A = \dfrac{a + b}{2}$$
+    <ul>
+        <li>등비중항 - a mean proportional</li>
+    </ul>
+    $$G = \sqrt{ab}$$
+    <ul>
+        <li>조화중항 - a harmonic mean</li>
+    </ul>
+    $$H = \dfrac{2ab}{a + b}$$ $$A \geq G \geq H$$ $$G^2 = AH$$
+    <h3>등비수열의 합</h3>
+    <p>theorem = 등비수열의 합은 다음과 같다.</p>
+    $$r \neq 1 \Rightarrow S_n = \dfrac{a(1-r^n)}{1-r}$$ $$r = 1 \Rightarrow S_n = na$$
+
+    <p>proof</p>
+    ...
+
+    <p>theorem = 등비수열 theorem(geometric series)</p>
+    원금을 a, 이율을 r, 기간을 n, 원리합계를 S라 할 때
+    <ul>
+        <li>단리법으로 계산하면 $\Rightarrow S = a(1 + rn)$</li>
+        <li>복리법으로 계산하면 $\Rightarrow S = a(1 + r)^n$</li>
+    </ul>
+    <p>proof</p>
+
+    <p>corollary = 복리법으로 매년초에 a를 적립하면 n년 말의 적립총액은</p>
+    $$S = \frac{a(1+r)\{(1 + r)^n - 1\}}{b}$$
+    <p>proof</p>
+
+
+    <p>Theorem (이자계산 - 원리합계)</p>
+    기수불 예금에서 원금을 a, 이율을 r, 기간을 n, 원리합계를 S라 할 때,
+    <ul>
+        <li>단리법으로 계산하면 $ S = a(1 + rn)$</li>
+        <li>복리법으로 계산하면 $S = a(1 + r^{n})$</li>
+    </ul>
+    <p>proof</p>
+
+    <p>Theorem (적립총액)</p>
+    연이율 r, 매년마다 복리로 매년총에 a원씩 적립하면 적립총액은 얼마가 되겠는가?
+    <br> 답안 구하는 적립총액을 S원이라 하면, $$S = a(1 + r) + a(1 + r)^2 + a(1 + r)^3 + ... + a(1 + r)^n$$ $$\Rightarrow S = \dfrac{a(1+r)\{(1+r)^n - 1\}}{(1+r)-1} = \dfrac{a(1+r)\{(1+r)^n - 1\}}{r}$$
+
+    <p>Theorem (연부상환)</p>
+    연초에 A원을 빌리고, 그 해 말부터 매년 일정한 금액씩 갚아 n년간에 모두 갚으려고 한다. 매년 얼마씩 갚으면 좋은가? 단, 연이율 r, 1년마다 복리로 계산한다.
+    <p>답안</p>
+    A원에 대한 $n$년 말의 원리합계는 $A(1+r)^n$원 $\cdots$ --- ①
+    <br> 한편, 매년 말에 $x$원씩 적립했다고 할 때 이들의 $n$년말에 가서의 원리합계는
+    <br> $x + x(1+r) + x(1+r)^2 + \cdots + x(1+r)^{n-1} = \dfrac{x\{(1+r)^n - 1\}}{(1+r)-1} \cdots$ --- ②
+    <br> ①과 ②는 같아야 하므로
+    <br> $\dfrac{x\{(1+r)^n - 1\}}{r} = A(1+r)^n \therefore x = \dfrac{Ar(1+r)^n}{(1+r)^n - 1}$
+
+    <p>참고</p>
+    어떤 돈을 빌려쓰고, 매년 일정한 금액씩 갚아가는 것을 '''연부상환'''이라 하고, 이 일정한 금액을 '''연부금'''이라 한다. 또, 매월 일정한 금액씩 갚아가는 경우에는 이를 월부상환이라 하고, 이 일정한 금액을 월부금이라 한다.
+
+    <p>Theorem (연금)</p>
+    금년부터 매년말에 $a$원씩 $n$년간 계속해서 지급되는 연금이 있다. 이 연금을 금년 초에 한꺼번에 받는다면 얼마를 받아야 하는가? 단, 연이율 $r$, 1년마다 복리로 계산한다.
+    <p>답안</p>
+    연금현가를 P원이라 하면, $$P(1+r)^n = a + a(1+r) + a(1+r)^2 + \cdots + a(1+r)^{n-1}$$ $$\therefore P(1+r)^n = \dfrac{a\{(1+r)^n - 1)\}}{(1+r)-1}$$ $$\therefore P = \dfrac{a\{(1+r)^n - 1)\}}{r(1+r)^n}$$
+    <p>참고</p>
+    일정한 금액이 일정한 시기마다 계속해서 지급될 때 이것을 '''연금'''이라고 부른다. 그런데 이 연금은 장래에 받을 돈이므로 현재에 있어서는 그 액면대로의 가치가 없다. 그래서 이와 같은 연금을 현재의 값으로 따져 얼마의 가치가 있는 가를 생각해 본 것이 '''연금의 현가'''이다.
+    <p>부가문제</p>
+    n년말에 $fv$(future value)를 지급받는다. 금년말을 1년말이라고 치고 $n$년말에 $fv$를 지급받는다. 단 연이율 $r$, 1년마다 복리로 계산한다. $fv$의 현재가치($pv$)는?
+
+    <p>답안</p>
+    1년말 : $fv = pv + pv \times r = pv \times (1+r)$
+    <br> $n$년말 : $fv = pv \times (1+r)^n \therefore pv = \dfrac{fv}{(1+r)^n}$
+</body>
+
+</html>
+
