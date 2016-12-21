@@ -3,13 +3,14 @@
 <!-- Set this to the main language of your site -->
 <head>
 <meta charset="utf-8" http-equiv="refresh" content="5">
+<!-- <base href="http://hakchin.github.io/images/" target="_blank"> -->
+
 <title>Hakchin's homepage</title>
 
 <!-- Enter a brief description of your page -->
 <meta name="description" content="">
 
-<!-- Define a viewport to mobile devices to use - telling the browser to assume that the page is as wide as the device (width=device-width,
-    and setting the initial page zoom level to be 1 (initial-scale=1.0), and fixing width=device-width for iOS9 (shtink-to-fit=no) -->
+<!-- Define a viewport to mobile devices to use - telling the browser to assume that the page is as wide as the device (width=device-width, and setting the initial page zoom level to be 1 (initial-scale=1.0), and fixing width=device-width for iOS9 (shrink-to-fit=no) -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
 <!-- Add normalize.css which enables browsers to render all elements more consistently and in line with modern standards as it only targets particular styles that need normalizing -->
@@ -28,11 +29,11 @@
 <!-- The page header typically contains items such as your site heading, logo and possibly the main site navigation --> 
 <!-- ARIA: the landmark role "banner" is set as it is the prime heading or internal title of the page -->
 <header role="banner">
-  <h1><a href="javascript:history.go(0)">Hakchin's homepage</a></h1>
+  <h1><a href="javascript:location.reload()">Hakchin's homepage</a></h1>
   <form>
-    <input TYPE="button" onClick="location.reload()" VALUE="Refresh">
+    <input TYPE="button" onClick="history.go(0)" VALUE="Refresh">
   </form>
-  
+
   <!-- ARIA: the landmark role "navigation" is added here as the element contains site navigation
         NOTE: The <nav> element does not have to be contained within a <header> element, even though the two examples on this page are. -->
   <nav role="navigation"> 
@@ -59,7 +60,7 @@
           <ul>
             <li><a href="#hmath">Mathematics</a></li>
             <li><a href="#hgolang">Hakchin's Go</a></li>
-            <li><a href="#hcss">Hakchin's CSS Template</a></li>
+            <li><a href="#hhtmltips">Hakchin's HTML Tips</a></li>
           </ul>
         </nav>
         <h2>Getting Started</h2>
@@ -124,18 +125,17 @@
   <li><a href="./hlatexhtml/TOGAF_Version_9_1_A_Pocket_Guide.html">TOGAF_Version_9_1_A_Pocket_Guide.html</a></li>
   <li><a href="./hlatexhtml/lshort.html">lshort.html</a></li>
 </ul>
-<article id="hcss">
-  <h2><abbr title="Hakchin builds his own CSS Template by himself">Hakchin</abbr>'s CSS template</h2>
-  <a href="#" class="btn btn-blue   btn-icon-left  btn-arrow-up"><span>Up</span></a> <a href="#" class="btn btn-red    btn-icon-left  btn-arrow-down"><span>Down</span></a> <a href="#" class="btn btn-yellow btn-icon-left  btn-arrow-left"><span>Left</span></a> <a href="#" class="btn btn-green  btn-icon-right btn-arrow-right"><span>Right</span></a> <a href="#" class="btn"><span>No Icon</span></a> </article>
 <h2>Hakchin's golang</h2>
 <p> My Name is Hakchin Kim jjkjlkjlkjlkjklj </p>
 <h2>Hakchin's Mathematics</h2>
 <a href="#" class="btn btn-blue   btn-icon-left  btn-arrow-up"><span>Up</span></a> <a href="#" class="btn btn-red    btn-icon-left  btn-arrow-down"><span>Down</span></a> <a href="#" class="btn btn-yellow btn-icon-left  btn-arrow-left"><span>Left</span></a> <a href="#" class="btn btn-green  btn-icon-right btn-arrow-right"><span>Right</span></a> <a href="#" class="btn"><span>No Icon</span></a>
-<h2>HTML5 Tips</h2>
-<ul>
-  <li><a href="http://www.htmlgoodies.com/tutorials/getting_started/article.php/3479551">Reloading The Page</a></li>
-  <li><a href="http://www.w3schools.com/jsref/met_loc_reload.asp">Location reload() Method</a></li>
-</ul>
+<article id="hhtmltips">
+  <h2><abbr title="Hakchin builds his own CSS Template by himself">Hakchin</abbr>'s HTML Tips</h2>
+  <ul>
+    <li><a href="http://www.htmlgoodies.com/tutorials/getting_started/article.php/3479551">Reloading The Page</a></li>
+    <li><a href="http://www.w3schools.com/jsref/met_loc_reload.asp">Location reload() Method</a></li>
+  </ul>
+  <a href="#" class="btn btn-blue   btn-icon-left  btn-arrow-up"><span>Up</span></a> <a href="#" class="btn btn-red    btn-icon-left  btn-arrow-down"><span>Down</span></a> <a href="#" class="btn btn-yellow btn-icon-left  btn-arrow-left"><span>Left</span></a> <a href="#" class="btn btn-green  btn-icon-right btn-arrow-right"><span>Right</span></a> <a href="#" class="btn"><span>No Icon</span></a> </article>
 
 <!-- end of hakchin --> 
 
