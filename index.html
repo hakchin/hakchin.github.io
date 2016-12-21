@@ -2,7 +2,7 @@
 <html lang="en">
 <!-- Set this to the main language of your site -->
 <head>
-<meta charset="utf-8">
+<meta charset="utf-8" http-equiv="refresh" content="5">
 <title>Hakchin's homepage</title>
 
 <!-- Enter a brief description of your page -->
@@ -28,10 +28,11 @@
 <!-- The page header typically contains items such as your site heading, logo and possibly the main site navigation --> 
 <!-- ARIA: the landmark role "banner" is set as it is the prime heading or internal title of the page -->
 <header role="banner">
-<h1><a href="javascript:history.go(0)">Hakchin's homepage</a></h1>
-
+  <h1><a href="javascript:history.go(0)">Hakchin's homepage</a></h1>
+  <form>
+    <input TYPE="button" onClick="location.reload()" VALUE="Refresh">
+  </form>
   
-      
   <!-- ARIA: the landmark role "navigation" is added here as the element contains site navigation
         NOTE: The <nav> element does not have to be contained within a <header> element, even though the two examples on this page are. -->
   <nav role="navigation"> 
@@ -110,7 +111,7 @@
     <p>The article and section elements cause a lot of confusion when people are trying to decide how and when to use them. The article: <a href="http://www.iandevlin.com/blog/2011/04/html5/html5-section-or-article">section or article?</a> might help you choose.</p>
   </aside>
 </div>
-  <h1><a href="javascript:location.reload()">Hakchin's homepage</a></h1>
+<h1><a href="javascript:location.reload()">Hakchin's homepage</a></h1>
 
 <!-- bgn of hakchin -->
 
@@ -129,7 +130,12 @@
 <h2>Hakchin's golang</h2>
 <p> My Name is Hakchin Kim jjkjlkjlkjlkjklj </p>
 <h2>Hakchin's Mathematics</h2>
-<a href="#" class="btn btn-blue   btn-icon-left  btn-arrow-up"><span>Up</span></a> <a href="#" class="btn btn-red    btn-icon-left  btn-arrow-down"><span>Down</span></a> <a href="#" class="btn btn-yellow btn-icon-left  btn-arrow-left"><span>Left</span></a> <a href="#" class="btn btn-green  btn-icon-right btn-arrow-right"><span>Right</span></a> <a href="#" class="btn"><span>No Icon</span></a> 
+<a href="#" class="btn btn-blue   btn-icon-left  btn-arrow-up"><span>Up</span></a> <a href="#" class="btn btn-red    btn-icon-left  btn-arrow-down"><span>Down</span></a> <a href="#" class="btn btn-yellow btn-icon-left  btn-arrow-left"><span>Left</span></a> <a href="#" class="btn btn-green  btn-icon-right btn-arrow-right"><span>Right</span></a> <a href="#" class="btn"><span>No Icon</span></a>
+<h2>HTML5 Tips</h2>
+<ul>
+  <li><a href="http://www.htmlgoodies.com/tutorials/getting_started/article.php/3479551">Reloading The Page</a></li>
+  <li><a href="http://www.w3schools.com/jsref/met_loc_reload.asp">Location reload() Method</a></li>
+</ul>
 
 <!-- end of hakchin --> 
 
