@@ -27,33 +27,33 @@
 </head>
 <body>
 
-<!-- The page header typically contains items such as your site heading, logo and possibly the main site navigation --> 
+<!-- The page header typically contains items such as your site heading, logo and possibly the main site navigation -->
 <!-- ARIA: the landmark role "banner" is set as it is the prime heading or internal title of the page -->
 <header role="banner">
   <h1><a href="javascript:location.reload()">Hakchin's homepage</a></h1>
   <form>
     <input TYPE="button" onClick="history.go(0)" VALUE="Refresh">
   </form>
-  
+
   <!-- ARIA: the landmark role "navigation" is added here as the element contains site navigation
         NOTE: The <nav> element does not have to be contained within a <header> element, even though the two examples on this page are. -->
-  <nav role="navigation"> 
-    <!-- This can contain your site navigation either in an unordered list or even a paragraph that contains links that allow users to navigate your site --> 
+  <nav role="navigation">
+    <!-- This can contain your site navigation either in an unordered list or even a paragraph that contains links that allow users to navigate your site -->
   </nav>
 </header>
 
 <!-- If you want to use an element as a wrapper, i.e. for styling only, then <div> is still the element to use -->
-<div class="wrap"> 
-  
-  <!-- The <main> element is used to enclose the main content, i.e. that which contains the central topic of a document --> 
+<div class="wrap">
+
+  <!-- The <main> element is used to enclose the main content, i.e. that which contains the central topic of a document -->
   <!-- ARIA: the landmark role "main" is added here as it contains the main content of the document, and it is recommended to add it to the
         <main> element until user agents implement the required role mapping. -->
-  <main role="main"> 
-    
+  <main role="main">
+
     <!-- The <section> element can be used to enclose content that comes under a related heading.
             NOTE: The <section> element can contain <article> elements and vice versa, if you think the content warrants it. -->
-    <section> 
-      
+    <section>
+
       <!-- This is the section's header. It contains the heading and navigation links for within the section -->
       <header>
         <h2>Contents</h2>
@@ -73,23 +73,23 @@
           </ul>
         </nav>
       </header>
-      
+
       <!-- The <article> element can be used to enclose content that still makes sense on its own and is therefore "reusable" -->
-      <article id="introduction"> 
-        
+      <article id="introduction">
+
         <!-- A <header> element is not required here as the heading only contains a single <h3> element -->
         <h3>Introduction</h3>
-        
+
         <!-- Content -->
         <p>Welcome to <abbr title="HyperText Markup Language 5">HTML5</abbr> Bones. This is a template that contains comments to aid you with setting up your <abbr title="HyperText Markup Language 5">HTML5</abbr> document.</p>
       </article>
-      
+
       <!-- The <article> element can be used to enclose content that still makes sense on its own and is therefore "reusable" -->
-      <article id="instructions"> 
-        
+      <article id="instructions">
+
         <!-- A <header> element is not required here as the heading only contains a single <h3> element -->
         <h3>Instructions</h3>
-        
+
         <!-- Content -->
         <ol>
           <li>Read the comments in this template</li>
@@ -99,16 +99,16 @@
       </article>
     </section>
   </main>
-  
+
   <!-- An <aside> is used to enclose content that is additional to the main content but not essential. If it were removed, the meaning of the main content should not be lost, but the content of the <aside> also retains its meaning.
         NOTE: the aside is placed outside of the <main> element as while its content is related to the content that is within the <main>
-        element, it is not part of it --> 
+        element, it is not part of it -->
   <!-- ARIA: the landmark role "complementary" is added here as it contains supporting information for the main content that remains meaningful even when separated from it -->
-  <aside role="complementary"> 
-    
+  <aside role="complementary">
+
     <!-- A <header> element is not required here as the heading only contains a single <h3> element -->
     <h3>Did you know?</h3>
-    
+
     <!-- Content -->
     <p>The article and section elements cause a lot of confusion when people are trying to decide how and when to use them. The article: <a href="http://www.iandevlin.com/blog/2011/04/html5/html5-section-or-article">section or article?</a> might help you choose.</p>
   </aside>
@@ -138,18 +138,18 @@
   </ul>
   <a href="#" class="btn btn-blue   btn-icon-left  btn-arrow-up"><span>Up</span></a> <a href="#" class="btn btn-red    btn-icon-left  btn-arrow-down"><span>Down</span></a> <a href="#" class="btn btn-yellow btn-icon-left  btn-arrow-left"><span>Left</span></a> <a href="#" class="btn btn-green  btn-icon-right btn-arrow-right"><span>Right</span></a> <a href="#" class="btn"><span>No Icon</span></a> </article>
 
-<!-- end of hakchin --> 
+<!-- end of hakchin -->
 
-<!-- The main page footer can contain items such as copyright and contact information. It can also contain a duplicated navigation of your site which is not usually contained within a <nav> --> 
+<!-- The main page footer can contain items such as copyright and contact information. It can also contain a duplicated navigation of your site which is not usually contained within a <nav> -->
 <!-- ARIA: the landmark role "contentinfo" is added here as it contains metadata that applies to the parent document -->
-<footer role="contentinfo"> 
-  
+<footer role="contentinfo">
+
   <!-- The <address> element contains contact information for the nearest <article> or <body> element. This example is for the <body> -->
   <address>
   <p>For further information, please contact <a href="mailto:admin@example.com">Max Mustermann</a>.</p>
   </address>
-  
-  <!-- Copyright information can be contained within the <small> element. The <time> element is used here to indicate that the '2016' is a date --> 
+
+  <!-- Copyright information can be contained within the <small> element. The <time> element is used here to indicate that the '2016' is a date -->
   <small>Copyright &copy;
   <time datetime="2016">2016</time>
   </small> </footer>
