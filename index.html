@@ -12,10 +12,10 @@
 <!-- Enter a brief description of your page -->
 <meta name="description" content="This is Hakchin's website">
 
-<!-- Define a viewport to mobile devices to use - telling the browser to assume that the page is as wide as the device (width=device-width, and setting the initial page zoom level to be 1 (initial-scale=1.0), and fixing width=device-width for iOS9 (shrink-to-fit=no) -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<!-- Define a viewport to mobile devices to use - telling the browser to assume that the page is as wide as the device (width=device-width) and setting the initial page zoom level to be 1 (initial-scale=1.0) -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Add normalize.css which enables browsers to render all elements more consistently and in line with modern standards as it only targets particular styles that need nor	malizing -->
+<!-- Add normalize.css which enables browsers to render all elements more consistently and in line with modern standards as it only targets particular styles that need normalizing -->
 <link href="css/normalize.css" rel="stylesheet" media="all">
 <!-- For legacy support (IE 6/7, Firefox < 4, and Safari < 5) use normalize-legacy.css instead -->
 <!--<link href="css/normalize-legacy.css" rel="stylesheet" media="all">-->
@@ -40,13 +40,15 @@
   </form>
   
   <!-- ARIA: the landmark role "navigation" is added here as the element contains site navigation
-        NOTE: The <nav> element does not have to be contained within a <header> element, even though the two examples on this page are. -->
+       NOTE: The <nav> element does not have to be contained within a <header> element, even though the two examples on this page are. -->
   <nav role="navigation"> 
     <!-- This can contain your site navigation either in an unordered list or even a paragraph that contains links that allow users to navigate your site --> 
   </nav>
+  
   <!-- MathJax --> 
   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript">
     </script> 
+  
   <!-- LaTeX Style -->
   <link href="css/theorem.css" rel="stylesheet" media="all">
 </header>
@@ -67,44 +69,23 @@
         <h2>Contents</h2>
         <nav role="navigation">
           <ul>
-            <li><a href="#hmath">Mathematics</a></li>
-            <li><a href="#hgolang">Hakchin's Go</a></li>
+            <li><a href="#hmath">Hakchin's Mathematical Logic</a></li>
             <li><a href="#hhtmltips">Hakchin's HTML Tips</a></li>
-            <li><a href="#hgeogebra">Hakchin's GeoGebra</a></li>
-          </ul>
-        </nav>
-        <h2>Getting Started</h2>
-        <!-- ARIA: the landmark role "navigation" is added here as the element contains page navigation -->
-        <nav role="navigation">
-          <ul>
-            <li><a href="#introduction">Introduction</a></li>
-            <li><a href="#instructions">Instructions</a></li>
           </ul>
         </nav>
       </header>
       
       <!-- The <article> element can be used to enclose content that still makes sense on its own and is therefore "reusable" -->
-      <article id="introduction"> 
+      <article id="hmath"> 
         
         <!-- A <header> element is not required here as the heading only contains a single <h3> element -->
         <h3>Introduction</h3>
-        
-        <!-- Content -->
-        <p>Welcome to <abbr title="HyperText Markup Language 5">HTML5</abbr> Bones. This is a template that contains comments to aid you with setting up your <abbr title="HyperText Markup Language 5">HTML5</abbr> document.</p>
-      </article>
-      
-      <!-- The <article> element can be used to enclose content that still makes sense on its own and is therefore "reusable" -->
-      <article id="instructions"> 
-        
-        <!-- A <header> element is not required here as the heading only contains a single <h3> element -->
-        <h3>Instructions</h3>
-        
-        <!-- Content -->
-        <ol>
-          <li>Read the comments in this template</li>
-          <li>Decide how you think your content may fit into the template</li>
-          <li>Start building your document</li>
-        </ol>
+        <h1><a href="javascript:location.reload()">Hakchin's Mathematical Logic</a></h1>
+        <h2>Hakchin's Mathematical Logic</h2>
+        <h3>Reference Sites</h3>
+        <ul>
+          <li><a href="http://www.vdash.org/formal/">What is Formal Math</a></li>
+        </ul>
       </article>
     </section>
   </main>
@@ -122,14 +103,6 @@
     <p>The article and section elements cause a lot of confusion when people are trying to decide how and when to use them. The article: <a href="http://www.iandevlin.com/blog/2011/04/html5/html5-section-or-article">section or article?</a> might help you choose.</p>
   </aside>
 </div>
-<h1><a href="javascript:location.reload()">Mathematical Logic</a></h1>
-<h2>Hakchin's golang</h2>
-<p> My Name is Hakchin Kim</p>
-<h2>Hakchin's Mathematical Logic</h2>
-<h3>Reference Sites</h3>
-<ul>
-  <li><a href="http://www.vdash.org/formal/">What is Formal Math</a></li>
-</ul>
 <a href="#" class="btn btn-blue   btn-icon-left  btn-arrow-up"><span>Up</span></a> <a href="#" class="btn btn-red    btn-icon-left  btn-arrow-down"><span>Down</span></a> <a href="#" class="btn btn-yellow btn-icon-left  btn-arrow-left"><span>Left</span></a> <a href="#" class="btn btn-green  btn-icon-right btn-arrow-right"><span>Right</span></a> <a href="#" class="btn"><span>No Icon</span></a>
 <div class="definition"> A set \( C \) is \( convex \) if for all
   \(x,y \in C \) and for all
