@@ -20,10 +20,9 @@
 <!-- For legacy support (IE 6/7, Firefox < 4, and Safari < 5) use normalize-legacy.css instead -->
 <!--<link href="css/normalize-legacy.css" rel="stylesheet" media="all">-->
 
-<link href="css/theorem.css" rel="stylesheet" media="all">
-
 <!-- Include the site stylesheet -->
 <link href="css/styles.css" rel="stylesheet" media="all">
+<link href="css/theorem.css" rel="stylesheet" media="all">
 
 <!-- Include the HTML5 shiv print polyfill for Internet Explorer browsers 8 and below -->
 <!--[if lt IE 9]><script src="js/html5shiv-printshiv.js" media="all"></script><![endif]-->
@@ -34,9 +33,10 @@
 <!-- The page header typically contains items such as your site heading, logo and possibly the main site navigation --> 
 <!-- ARIA: the landmark role "banner" is set as it is the prime heading or internal title of the page -->
 <header role="banner">
-  <h1><a href="javascript:location.reload()">Hakchin's homepage</a></h1>
+  <h1><a href="index.html">Hakchin's homepage</a></h1>
+  <h2><a href="javascript:location.reload()">Refresh to last history</a></h2>
   <form>
-    <input TYPE="button" onClick="history.go(0)" VALUE="Refresh">
+    <input TYPE="button" onClick="history.go(0)" VALUE="Refresh to last history">
   </form>
   
   <!-- ARIA: the landmark role "navigation" is added here as the element contains site navigation
@@ -56,7 +56,8 @@
 <!-- If you want to use an element as a wrapper, i.e. for styling only, then <div> is still the element to use -->
 <div class="wrap"> 
   <!-- The <main> element is used to enclose the main content, i.e. that which contains the central topic of a document --> 
-  <!-- ARIA: the landmark role "main" is added here as it contains the main content of the document, and it is recommended to add it to the <main> element until user agents implement the required role mapping. -->
+  <!-- ARIA: the landmark role "main" is added here as it contains the main content of the document, and it is recommended to add it to the
+        <main> element until user agents implement the required role mapping. -->
   <main role="main"> 
     
     <!-- The <section> element can be used to enclose content that comes under a related heading.
@@ -76,6 +77,7 @@
       
       <!-- The <article> element can be used to enclose content that still makes sense on its own and is therefore "reusable" -->
       <article id="hmath"> 
+        
         <!-- A <header> element is not required here as the heading only contains a single <h3> element -->
         <h3>Introduction</h3>
         <h1><a href="javascript:location.reload()">Hakchin's Mathematical Logic</a></h1>
